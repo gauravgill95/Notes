@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rishabh.notestaker.HelpActivity"
+    android:background="@android:color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:text="About  Notes \n\nThe Notes app is a great place to jot down random thoughts, memos, and other bits of text."
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="28dp"
+        android:textColor="@android:color/black"
+        android:text="About Developer\n"
+        android:textAlignment="center"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="12dp"
+        android:textColor="@android:color/black"
+        android:text="       Gaurav Gill \n       IIT Ropar\n       2016eeb1077@iitrpr.ac.in\n       8930576000"
+        android:textSize="20sp" />
+</RelativeLayout>
